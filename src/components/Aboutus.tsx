@@ -174,18 +174,18 @@ const Aboutus: React.FC = () => {
 
       </div>
       <div
-        className="container-fluid overflow-scroll "
-        id=""
+        className="container-fluid overflow-scroll"
+        id="back"
         style={{
           backgroundImage: `url(${banner})`,
-          backgroundSize: "600px",
           backgroundPosition: "top center",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
+          // backgroundSize: '600px',
           // position: "fixed",
           // width: "100%",
           height: "100vh",
-          // zIndex: 10,
+          zIndex: 10,
 
         }}
       >

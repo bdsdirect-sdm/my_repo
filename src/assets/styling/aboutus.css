@@ -17,6 +17,7 @@
     height: 10px;
 }
 
+
 .navbar-nav .nav-link {
     color: black;
     font-size: 16px;
@@ -106,10 +107,20 @@
     opacity: 0.8;
 }
 
+#back{
+    background-size: 600px;
+}
+
 @media (max-width: 767px) {
     .footer-dark .item:not(.social) {
         text-align: center;
         padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 624px) {
+    #back{
+        background-size: 500px 400px;
     }
 }
 
@@ -136,6 +147,10 @@
     .footer-dark .item.social {
         text-align: center;
         margin-top: 20px;
+    }
+
+    #back{
+        background-size: 480px 520px;
     }
 }
 
@@ -183,6 +198,11 @@
         width: 250px;
 
         background-color: #445881;
+    }
+
+    
+    #back{
+        background-size: 395px 400px;
     }
 
     #mynavbar {
@@ -258,5 +278,17 @@
 
     .email img {
         display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    #back{
+        background-size: 380px 450px;
+    }
+}
+
+@media (max-width: 390px) {
+    #back{
+        background-size: 330px 340px;
     }
 }

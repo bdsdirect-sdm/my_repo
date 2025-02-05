@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/styling/academy.css';
 import menu_black from '../assets/images/menu- black.jpg';
-// import '../assets/js';
 import image_email from '../assets/images/email_i.jpg';
 import phone_removebg_preview from '../assets/images/phone-removebg-preview.png';
 import newicon from '../assets/icons/new_icon.png'
@@ -76,123 +75,124 @@ const Academy: React.FC = () => {
         </section>
 
         <div className="content-wrapper">
-          <div className="container-fluid" style={{padding: '4vh', marginTop:'10vh', backgroundColor: 'lightgrey'}}>
-            <div className="container" id="pos">
-              {/* Level 1 (Silver) Course Section */}
-              <div className="course-box">
-                <h2>Level 1 (Silver) International Hairstyling Course</h2>
-                <h2>10 Hairstyle Techniques:</h2>
-                <ul>
-                  <li>Product Knowledge Class</li>
-                  <li>Instagram Marketing Class</li>
-                  <li>Business Class</li>
-                  <li>Live Model Portfolios (2)</li>
-                </ul>
-
-                <h2>Techniques to Be Covered:</h2>
-                <div className="techniques">
+            <div className="container-fluid" style={{padding: '4vh', marginTop:'10vh', backgroundColor: 'lightgrey'}}>
+              <div className="container" id="pos">
+                {/* Level 1 (Silver) Course Section */}
+                <div className="course-box">
+                  <h2>Level 1 (Silver) International Hairstyling Course</h2>
+                  <h2>10 Hairstyle Techniques:</h2>
                   <ul>
-                    <li>Spreading</li>
-                    <li>Pulling</li>
-                    <li>Bridal Bun</li>
-                    <li>Back Twisting</li>
-                    <li>Hair Preparation</li>
-                    <li>Major Pulling</li>
-                    <li>Bow Technique</li>
-                    <li>Braids</li>
-                    <li>Blow Dryer</li>
-                    <li>Note Technique</li>
-                    <li>Different Types of Curls</li>
-                    <li>Different Types of Sections</li>
-                    <li>Different Types of Back Combing</li>
-                    <li>Pony Hairstyles</li>
+                    <li>Product Knowledge Class</li>
+                    <li>Instagram Marketing Class</li>
+                    <li>Business Class</li>
+                    <li>Live Model Portfolios (2)</li>
                   </ul>
+
+                  <h2>Techniques to Be Covered:</h2>
+                  <div className="techniques">
+                    <ul>
+                      <li>Spreading</li>
+                      <li>Pulling</li>
+                      <li>Bridal Bun</li>
+                      <li>Back Twisting</li>
+                      <li>Hair Preparation</li>
+                      <li>Major Pulling</li>
+                      <li>Bow Technique</li>
+                      <li>Braids</li>
+                      <li>Blow Dryer</li>
+                      <li>Note Technique</li>
+                      <li>Different Types of Curls</li>
+                      <li>Different Types of Sections</li>
+                      <li>Different Types of Back Combing</li>
+                      <li>Pony Hairstyles</li>
+                    </ul>
+                  </div>
+
+                  <div className="enroll">
+                    <Link to="/contact-us">Enroll Now</Link>
+                  </div>
                 </div>
 
-                <div className="enroll">
-                  <Link to="contact-us">Enroll Now</Link>
-                </div>
-              </div>
-
-              {/* Level 2 (Diamond) Course Section */}
-              <div className="course-box">
-                <h2>Level 2 (Diamond) International Hairstyling Course</h2>
-                <h2>25 Hairstyle Techniques:</h2>
-                <ul>
-                  <li>Product Knowledge Class</li>
-                  <li>Instagram Marketing Class</li>
-                  <li>Business Class</li>
-                  <li>Live Model Portfolios (5)</li>
-                </ul>
-
-                <h2>Techniques to Be Covered:</h2>
-                <div className="techniques">
+                {/* Level 2 (Diamond) Course Section */}
+                <div className="course-box">
+                  <h2>Level 2 (Diamond) International Hairstyling Course</h2>
+                  <h2>25 Hairstyle Techniques:</h2>
                   <ul>
-                    <li>Spreading</li>
-                    <li>Pulling</li>
-                    <li>Bridal Bun</li>
-                    <li>Flower Tucking</li>
-                    <li>Rose Bud</li>
-                    <li>Front Twisting</li>
-                    <li>Back Twisting</li>
-                    <li>Hair Preparation</li>
-                    <li>Major Pulling</li>
-                    <li>Bow Technique</li>
-                    <li>Braids</li>
-                    <li>Blow Dryer</li>
-                    <li>Note Technique</li>
-                    <li>Multiple Rose Bud</li>
-                    <li>Mermaid Hairstyle</li>
-                    <li>Hollywood Technique</li>
-                    <li>Tucking Technique</li>
-                    <li>Leaf Technique</li>
-                    <li>Different Types of Curls</li>
-                    <li>Different Types of Sections</li>
-                    <li>Different Types of Back Combing</li>
-                    <li>Advance Spreading</li>
-                    <li>Pony Hairstyles</li>
+                    <li>Product Knowledge Class</li>
+                    <li>Instagram Marketing Class</li>
+                    <li>Business Class</li>
+                    <li>Live Model Portfolios (5)</li>
                   </ul>
-                </div>
 
-                <div className="enroll">
-                  <Link to="/contact-us">Enroll Now</Link>
+                  <h2>Techniques to Be Covered:</h2>
+                  <div className="techniques">
+                    <ul>
+                      <li>Spreading</li>
+                      <li>Pulling</li>
+                      <li>Bridal Bun</li>
+                      <li>Flower Tucking</li>
+                      <li>Rose Bud</li>
+                      <li>Front Twisting</li>
+                      <li>Back Twisting</li>
+                      <li>Hair Preparation</li>
+                      <li>Major Pulling</li>
+                      <li>Bow Technique</li>
+                      <li>Braids</li>
+                      <li>Blow Dryer</li>
+                      <li>Note Technique</li>
+                      <li>Multiple Rose Bud</li>
+                      <li>Mermaid Hairstyle</li>
+                      <li>Hollywood Technique</li>
+                      <li>Tucking Technique</li>
+                      <li>Leaf Technique</li>
+                      <li>Different Types of Curls</li>
+                      <li>Different Types of Sections</li>
+                      <li>Different Types of Back Combing</li>
+                      <li>Advance Spreading</li>
+                      <li>Pony Hairstyles</li>
+                    </ul>
+                  </div>
+
+                  <div className="enroll">
+                    <Link to="/contact-us">Enroll Now</Link>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+            <footer className="bg-dark text-center text-white">
+              <div className="container p-3">
+                  <div className="row text-center">
+                    {/* Column 1: About */}
+                    <div className="col-lg-4 mb-4">
+                      <h5 className="text-uppercase fw-bold mb-3">Kanha Makeup Studio</h5>
+                      <p style={{fontSize: '16px', lineHeight: '1.8'}}>
+                        We offer all kinds of bridal makeup, hairstyling, and academy classes to help you build your skills. Come and get trained in the art of makeup at our studio.
+                      </p>
+                    </div>
+
+                    {/* Column 2: Useful Links */}
+                    <div className="col-lg-4 mb-4">
+                      <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
+                      <ul className="list-unstyled">
+                        <li><a href="/" className="text-white">Home</a></li>
+                        <li><a href="/academy" className="text-white">Academy</a></li>
+                        <li><a href="/contact-us" className="text-white">Contact</a></li>
+                        <li><a href="/about-us" className="text-white">About</a></li>
+                      </ul>
+                    </div>
+
+                    {/* Column 3: Contact Information */}
+                    <div className="col-lg-4 mb-4">
+                      <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
+                      <p>Call us: 9646486969</p>
+                      <p>Email: madhvimanchanda92@gmail.com</p>
+                    </div>
+                  </div>
+              </div>
+            </footer>
         </div>
         
-        <footer className="bg-dark text-center text-white">
-          <div className="container p-3">
-            <div className="row text-center">
-              {/* Column 1: About */}
-              <div className="col-lg-4 mb-4">
-                <h5 className="text-uppercase fw-bold mb-3">Kanha Makeup Studio</h5>
-                <p style={{fontSize: '16px', lineHeight: '1.8'}}>
-                  We offer all kinds of bridal makeup, hairstyling, and academy classes to help you build your skills. Come and get trained in the art of makeup at our studio.
-                </p>
-              </div>
-
-              {/* Column 2: Useful Links */}
-              <div className="col-lg-4 mb-4">
-                <h5 className="text-uppercase fw-bold mb-3">Quick Links</h5>
-                <ul className="list-unstyled">
-                  <li><a href="/" className="text-white">Home</a></li>
-                  <li><a href="/academy" className="text-white">Academy</a></li>
-                  <li><a href="/contact-us" className="text-white">Contact</a></li>
-                  <li><a href="/about-us" className="text-white">About</a></li>
-                </ul>
-              </div>
-
-              {/* Column 3: Contact Information */}
-              <div className="col-lg-4 mb-4">
-                <h5 className="text-uppercase fw-bold mb-3">Contact</h5>
-                <p>Call us: 9646486969</p>
-                <p>Email: madhvimanchanda92@gmail.com</p>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
       </div>
     </>
   );

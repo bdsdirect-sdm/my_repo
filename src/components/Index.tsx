@@ -1,5 +1,6 @@
 import React from 'react'
-import '../assets/styling/index.css'
+import '../assets/styling/index.css';
+import '../assets/js'
 import { Link } from 'react-router-dom'
 import logo from '../assets/icons/new_icon.png'
 import menu_black from '../assets/images/menu- black.jpg'
@@ -7,7 +8,6 @@ import image_email from '../assets/images/email_i.jpg'
 import phone_removebg_preview from '../assets/images/phone-removebg-preview.png'
 import new_cut from '../assets/videos/newcut.mp4'
 import award from '../assets/images/award.jpeg'
-import '../assets/js'
 import instaone from '../assets/images/instaone.jpeg'
 import fb from '../assets/images/facebook.jpeg'
 import instatwo from '../assets/images/instatwo.jpeg'
@@ -579,7 +579,7 @@ const Index: React.FC = () => {
                 </li>
                 <li className='mb-2'>
                   <Link
-                    to='academy.html'
+                    to='/academy'
                     className='text-white text-decoration-none'
                   >
                     Academy
@@ -587,7 +587,7 @@ const Index: React.FC = () => {
                 </li>
                 <li className='mb-2'>
                   <Link
-                    to='aboutus.html'
+                    to='/about-us'
                     className='text-white text-decoration-none'
                   >
                     About Us
@@ -595,7 +595,7 @@ const Index: React.FC = () => {
                 </li>
                 <li className='mb-2'>
                   <Link
-                    to='contactus.html'
+                    to='/contact-us'
                     className='text-white text-decoration-none'
                   >
                     Contact Us

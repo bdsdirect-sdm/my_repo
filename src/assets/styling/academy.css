@@ -17,7 +17,7 @@ html, body {
 
 /* Add this CSS for the scrollable content */
 .content-wrapper {
-    height: calc(100vh - 100px);  /* Adjust based on your navbar height */
+    height:100vh;  /* Adjust based on your navbar height */
     overflow-y: auto;
     padding: 20px;
     background-color: lightgrey;
